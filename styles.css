@@ -1,0 +1,58 @@
+body {
+  background-image: url('chessboard1.png'); /* Background image of the chessboard */
+  background-size: cover; /* Cover the entire body */
+  background-repeat: repeat; /* Repeat the background to fill the entire body */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Set body height to 100% of viewport height */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.ad-container {
+  text-align: center; /* Center align content */
+  padding: 20px; /* Add padding for better layout */
+  color: white; /* Set text color to white for better contrast */
+}
+
+.ad-title {
+  margin-top: 0; /* Remove default margin */
+}
+
+.ad-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.ad-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+@media (max-width: 600px) {
+  .ad-container {
+    width: 90%;
+  }
+
+  .ad-title {
+    font-size: 1.5em;
+  }
+
+  .ad-subtitle {
+    font-size: 1em;
+  }
+
+  .ad-button {
+    font-size: 0.9em;
+    padding: 0.5em;
+  }
+}
